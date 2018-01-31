@@ -15,14 +15,20 @@
       <p>
 	Puff Daddy's current name is: Love or Brother Love
       </p>
-      
+    </h2>
+    <h3>
       <p>
 	Puff Daddy's name in the year
-	<select onChange="dropdownTip(this.value)" id="selectElementId">--Year--</select>
+	<select onChange="oldnamedropdown(this.value)" id="selectElementId"></select>
 	was <span id="result"></span>
-	  
       </p>
-    </h2>
+
+      <p>
+	(BETA) Predict Puff Daddy's name in the year
+	<select onChange="futurenamedropdown(this.value)" id="futureselectElementId"></select>:
+	<span id="futureresult"></span>
+      </p>
+    </h3>
 
     <script src="./funcs.js"></script>
     
